@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.4.0)
+  - NNProfiler (0.1.0)
+  - Specta (0.5.0)
+
+DEPENDENCIES:
+  - Expecta
+  - NNProfiler (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  NNProfiler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 392a6b5bfb9f4097e47dd8064d9b732079490332
+  NNProfiler: be4a4205917b8b1d0cdb731a66c3e4c69a667118
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+
+COCOAPODS: 0.35.0
