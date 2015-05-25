@@ -8,9 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
+
+
+typedef NS_ENUM(NSInteger, NNProfilerLogLevel) {
+	NNProfilerLogLevelVerbose,
+	NNProfilerLogLevelDebug,
+	NNProfilerLogLevelInfo
+};
+
+
+
 @interface NNProfiler : NSObject
+
+
 
 +(void)start:(NSString*)label;
 +(void)end:(NSString*)label;
++(void)end;
++(void)endWithLogLevel:(NNProfilerLogLevel)logLevel;
 
 @end

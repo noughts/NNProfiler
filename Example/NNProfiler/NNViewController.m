@@ -7,10 +7,7 @@
 //
 
 #import "NNViewController.h"
-
-@interface NNViewController ()
-
-@end
+#import <NNProfiler.h>
 
 @implementation NNViewController
 
@@ -18,6 +15,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	[NNProfiler start:@"hoge"];
+	[NNProfiler end];
+	[NNProfiler end];
 }
 
 - (void)didReceiveMemoryWarning
