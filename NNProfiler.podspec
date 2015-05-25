@@ -9,13 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "NNProfiler"
-  s.version          = "1.0.2"
-  s.summary          = "A short description of NNProfiler."
+  s.version          = "1.0.3"
+  s.summary          = "hoge"
   s.description      = <<-DESC
-                       An optional longer description of NNProfiler
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       fuga
                        DESC
   s.homepage         = "https://github.com/noughts/NNProfiler"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
