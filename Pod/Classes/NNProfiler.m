@@ -8,7 +8,7 @@
 
 #import "NNProfiler.h"
 // :: Framework ::
-#import "NBULog.h"
+#import "NBULogStub.h"
 
 static NSMutableDictionary* data;
 static NSString* lastLabel;
