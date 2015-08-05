@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NNProfiler"
-  s.version          = "1.0.3"
+  s.version          = "1.1.0"
   s.summary          = "hoge"
   s.description      = <<-DESC
                        fuga
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency "NBULog"
+  s.dependency "NBULogStub"
 end

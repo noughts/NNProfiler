@@ -8,7 +8,7 @@
 
 #import "NNProfiler.h"
 // :: Framework ::
-#import <NBULog.h>
+#import "NBULog.h"
 
 static NSMutableDictionary* data;
 static NSString* lastLabel;
@@ -38,6 +38,7 @@ static NSString* lastLabel;
 +(void)endWithLabel:(NSString*)label logLevel:(NNProfilerLogLevel)logLevel{
 	if( !label ){
 		NBULogWarn(@"labelを指定してください");
+		return;
 	}
 	NSDate* startDate = data[label];
 	if( !startDate ){
